@@ -1,4 +1,4 @@
-package com.ganzhenghao.springbootreactorstudy.controller;
+package com.ganzhenghao.springbootwebfluxstudy.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
@@ -13,10 +13,10 @@ import java.util.stream.IntStream;
 /**
  * @author Ganzhenghao
  * @version 1.0
- * @date 2021/5/22 18:11
+ * @date 2021/5/22 20:15
  */
 @RestController
-@RequestMapping("/web")
+@RequestMapping("/webflux")
 @Slf4j
 public class WebFluxController {
 

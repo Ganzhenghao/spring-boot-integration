@@ -1,13 +1,13 @@
-package com.ganzhenghao.springbootreactorstudy;
+package com.ganzhenghao.springbootwebfluxstudy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootReactorStudyApplication {
+public class SpringBootWebfluxStudyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootReactorStudyApplication.class, args);
+        SpringApplication.run(SpringBootWebfluxStudyApplication.class, args);
     }
 
 }
