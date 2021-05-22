@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-reactor-study" />
         <module name="spring-security-study" />
         <module name="spring-boot-condition-study" />
         <module name="spring-boot-mybatisplus-study" />
@@ -37,6 +38,7 @@
       <module name="spring-boot-EventListener-study" target="1.8" />
       <module name="spring-boot-mybatis-study" target="1.8" />
       <module name="spring-boot-mybatisplus-study" target="11" />
+      <module name="spring-boot-reactor-study" target="1.8" />
       <module name="spring-boot-redis-study" target="11" />
       <module name="spring-boot-starter-study" target="1.8" />
       <module name="spring-security-study" target="1.8" />

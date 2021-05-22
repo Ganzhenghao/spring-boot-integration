@@ -18,8 +18,6 @@ import redis.clients.jedis.Jedis;
 @Configuration
 @ConditionalOnClass(Jedis.class)
 public class RedisAutoConfigure {
-
-
     @Bean
     @ConditionalOnMissingBean(name = "jedis")
     public Jedis jedis(RedisProperties redisProperties) {

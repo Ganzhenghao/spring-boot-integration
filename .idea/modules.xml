@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch-study/spring-boot-elasticsearch-study.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch-study/spring-boot-elasticsearch-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-study/spring-boot-mybatis-study.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-study/spring-boot-mybatis-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatisplus-study/spring-boot-mybatisplus-study.iml" filepath="$PROJECT_DIR$/spring-boot-mybatisplus-study/spring-boot-mybatisplus-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-reactor-study/spring-boot-reactor-study.iml" filepath="$PROJECT_DIR$/spring-boot-reactor-study/spring-boot-reactor-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-study/spring-boot-redis-study.iml" filepath="$PROJECT_DIR$/spring-boot-redis-study/spring-boot-redis-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-study/spring-boot-starter-study.iml" filepath="$PROJECT_DIR$/spring-boot-starter-study/spring-boot-starter-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-study/spring-security-study.iml" filepath="$PROJECT_DIR$/spring-security-study/spring-security-study.iml" />

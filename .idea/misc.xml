@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/spring-boot-admin-study/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-admin-study/spring-boot-admin-server-study/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-admin-study/spring-boot-admin-client-study/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-reactor-study/pom.xml" />
       </list>
     </option>
   </component>
