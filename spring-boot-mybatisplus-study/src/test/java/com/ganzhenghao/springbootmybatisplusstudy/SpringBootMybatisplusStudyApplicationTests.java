@@ -1,6 +1,5 @@
 package com.ganzhenghao.springbootmybatisplusstudy;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ganzhenghao.springbootmybatisplusstudy.dao.UserDao;
 import com.ganzhenghao.springbootmybatisplusstudy.entity.User;
@@ -19,6 +18,16 @@ class SpringBootMybatisplusStudyApplicationTests {
 
     @Test
     void contextLoads() {
+    }
+
+
+    @Test
+    public void insertData() {
+
+        for (int i = 1; i <= 10; i++) {
+            userDao.insert(new User("user:"+i, 20+i, "x@y.com"));
+        }
+
     }
 
     @Test

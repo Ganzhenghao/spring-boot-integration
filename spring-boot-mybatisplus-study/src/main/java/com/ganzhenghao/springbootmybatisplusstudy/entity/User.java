@@ -1,13 +1,9 @@
 package com.ganzhenghao.springbootmybatisplusstudy.entity;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.Version;
+import com.baomidou.mybatisplus.annotation.*;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.*;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -21,6 +17,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @RequiredArgsConstructor
+@TableName("mp_user")
 public class User extends Model<User> {
     //主键ID
     private Long id;

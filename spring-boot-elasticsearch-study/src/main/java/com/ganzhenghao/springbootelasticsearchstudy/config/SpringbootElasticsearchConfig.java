@@ -15,8 +15,7 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
  * @Version 1.0
  */
 @Configuration
-public class ElasticsearchConfig extends AbstractElasticsearchConfiguration {
-
+public class SpringbootElasticsearchConfig extends AbstractElasticsearchConfiguration {
 
     @Override
     @Bean

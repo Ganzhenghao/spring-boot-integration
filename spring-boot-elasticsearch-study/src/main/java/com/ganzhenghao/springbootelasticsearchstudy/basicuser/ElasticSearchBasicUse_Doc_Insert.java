@@ -30,7 +30,7 @@ public class ElasticSearchBasicUse_Doc_Insert {
         //简写 id --> return this;
         IndexRequest request = new IndexRequest().index("user").id("1001");
 
-        //向ElasticSearch中插入数据 必须是 JSON 格式
+        //向ElasticSearch中插入数据 必须是 JSON 格式 也可以是map
         User user = new User("张三", "男", 18);
         ObjectMapper mapper = new ObjectMapper();
         String userJson = mapper.writeValueAsString(user);

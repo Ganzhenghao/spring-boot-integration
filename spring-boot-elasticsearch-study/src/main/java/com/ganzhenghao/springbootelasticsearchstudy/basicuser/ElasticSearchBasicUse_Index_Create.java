@@ -22,8 +22,8 @@ public class ElasticSearchBasicUse_Index_Create {
         RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(new HttpHost("192.168.44.149", 9200)));
 
         //创建索引
-        CreateIndexRequest user = new CreateIndexRequest("user");
-        CreateIndexResponse response = client.indices().create(user, RequestOptions.DEFAULT);
+        CreateIndexRequest createIndexRequest = new CreateIndexRequest("user");
+        CreateIndexResponse response = client.indices().create(createIndexRequest, RequestOptions.DEFAULT);
         //响应状态
         boolean acknowledged = response.isAcknowledged();
         System.out.println("是否成功 = " + acknowledged);
