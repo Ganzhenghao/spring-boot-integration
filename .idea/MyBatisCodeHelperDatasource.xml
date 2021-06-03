@@ -48,7 +48,7 @@
                   <option name="javaMapperPath" value="$PROJECT_DIR$/spring-boot-mybatisplus-study/src/main/java" />
                   <option name="javaModelPacakge" value="com.ganzhenghao.springbootmybatisplusstudy.domain" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/spring-boot-mybatisplus-study/src/main/java" />
-                  <option name="javaServiceInterfacePackage" value="com.ganzhenghao.springbootmybatisplusstudy.service.impl" />
+                  <option name="javaServiceInterfacePackage" value="com.ganzhenghao.springbootmybatisplusstudy.service" />
                   <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/spring-boot-mybatisplus-study/src/main/java" />
                   <option name="javaServicePackage" value="com.ganzhenghao.springbootmybatisplusstudy.service.impl" />
                   <option name="javaServicePath" value="$PROJECT_DIR$/spring-boot-mybatisplus-study/src/main/java" />

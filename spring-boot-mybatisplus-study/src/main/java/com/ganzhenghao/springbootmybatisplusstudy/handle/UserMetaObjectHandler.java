@@ -19,7 +19,9 @@ public class UserMetaObjectHandler implements MetaObjectHandler {
 
     @Override
     public void insertFill(MetaObject metaObject) {
+
         System.out.println("插入时填充..................");
+        // (工程mybatis-plus-study 里面有另一种写法)
         this.setFieldValByName("createTime", new Date(), metaObject);
         this.strictInsertFill(metaObject, "updateTime", Date.class, new Date());
         this.strictInsertFill(metaObject, "version", Long.class,1L);

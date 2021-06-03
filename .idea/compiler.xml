@@ -15,6 +15,7 @@
         <module name="spring-boot-actuator-study" />
         <module name="spring-boot-admin-client-study" />
         <module name="spring-boot-redis-study" />
+        <module name="spring-boot-mongodb-study" />
         <module name="spring-study" />
         <module name="spring-boot-dev-study" />
         <module name="spring-boot-admin-study" />
@@ -36,12 +37,13 @@
       <module name="spring-boot-dev-study" target="1.8" />
       <module name="spring-boot-elasticsearch-study" target="11" />
       <module name="spring-boot-EventListener-study" target="1.8" />
+      <module name="spring-boot-mongodb-study" target="1.8" />
       <module name="spring-boot-mybatis-study" target="1.8" />
       <module name="spring-boot-mybatisplus-study" target="11" />
       <module name="spring-boot-reactor-study" target="1.8" />
       <module name="spring-boot-redis-study" target="11" />
       <module name="spring-boot-starter-study" target="1.8" />
-      <module name="spring-boot-webflux-study" target="1.8" />
+      <module name="spring-boot-webflux-study" target="11" />
       <module name="spring-security-study" target="1.8" />
       <module name="spring-study" target="11" />
     </bytecodeTargetLevel>

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-condition-study/spring-boot-condition-study.iml" filepath="$PROJECT_DIR$/spring-boot-condition-study/spring-boot-condition-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dev-study/spring-boot-dev-study.iml" filepath="$PROJECT_DIR$/spring-boot-dev-study/spring-boot-dev-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch-study/spring-boot-elasticsearch-study.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch-study/spring-boot-elasticsearch-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mongodb-study/spring-boot-mongodb-study.iml" filepath="$PROJECT_DIR$/spring-boot-mongodb-study/spring-boot-mongodb-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-study/spring-boot-mybatis-study.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-study/spring-boot-mybatis-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatisplus-study/spring-boot-mybatisplus-study.iml" filepath="$PROJECT_DIR$/spring-boot-mybatisplus-study/spring-boot-mybatisplus-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-study/spring-boot-redis-study.iml" filepath="$PROJECT_DIR$/spring-boot-redis-study/spring-boot-redis-study.iml" />

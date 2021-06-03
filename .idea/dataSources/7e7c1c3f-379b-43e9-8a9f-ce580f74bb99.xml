@@ -848,6 +848,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <column id="247" parent="237" name="deleted">
       <Position>8</Position>
       <DataType>int(10)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <key id="248" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>

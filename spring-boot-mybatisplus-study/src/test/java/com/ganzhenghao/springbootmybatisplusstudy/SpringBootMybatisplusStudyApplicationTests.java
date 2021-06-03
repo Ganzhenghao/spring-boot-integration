@@ -1,5 +1,6 @@
 package com.ganzhenghao.springbootmybatisplusstudy;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ganzhenghao.springbootmybatisplusstudy.dao.UserDao;
 import com.ganzhenghao.springbootmybatisplusstudy.domain.User;
@@ -7,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -85,6 +87,44 @@ class SpringBootMybatisplusStudyApplicationTests {
         System.out.println("是否有上一页-> page.hasPrevious() = " + page.hasPrevious());
         System.out.println("每页几条数据-> page.getSize() = " + page.getSize());
         page.getRecords().forEach(System.out::println);
+    }
+
+    @Test
+    public void queryWrapper1() {
+
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.inSql("id", "1398457723804213250,1398457728472473602,1398457728501833729");
+        List<User> users = userDao.selectList(wrapper);
+        users.forEach(System.out::println);
+    }
+
+    @Test
+    public void queryWrapper2() {
+
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        /*
+        1398457723804213250
+        1398457728472473602
+        1398457728501833729
+        1398457728526999554
+        1398457728543776769
+        1398457728560553985
+
+         */
+        wrapper.inSql("id", "select id from mp_user");
+        List<User> users = userDao.selectList(wrapper);
+        users.forEach(System.out::println);
+    }
+
+    @Test
+    public void queryWrapper3() {
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+
+        String ids = "1398457723804213250,1398457728472473602,1398457728501833729";
+        String[] split = ids.split(",");
+        wrapper.in("id", Arrays.asList(split));
+        List<User> users = userDao.selectList(wrapper);
+        users.forEach(System.out::println);
     }
 
 }

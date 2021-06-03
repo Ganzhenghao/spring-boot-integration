@@ -7,10 +7,9 @@ import lombok.*;
 import java.util.Date;
 
 /**
- * 
  * @author Ganzhenghao
- * @date 2021/5/29 10:20
  * @version 1.0
+ * @date 2021/5/29 10:24
  */
 @EqualsAndHashCode(callSuper = false)
 @Data
