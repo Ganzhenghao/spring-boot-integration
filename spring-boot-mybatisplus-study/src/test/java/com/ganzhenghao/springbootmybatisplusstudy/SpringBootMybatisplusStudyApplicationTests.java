@@ -1,9 +1,11 @@
 package com.ganzhenghao.springbootmybatisplusstudy;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ganzhenghao.springbootmybatisplusstudy.dao.UserDao;
 import com.ganzhenghao.springbootmybatisplusstudy.domain.User;
+import com.ganzhenghao.springbootmybatisplusstudy.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,6 +19,9 @@ import java.util.Map;
 class SpringBootMybatisplusStudyApplicationTests {
     @Autowired
     private UserDao userDao;
+
+    @Autowired
+    private UserService userService;
 
     @Test
     void contextLoads() {
@@ -125,6 +130,14 @@ class SpringBootMybatisplusStudyApplicationTests {
         wrapper.in("id", Arrays.asList(split));
         List<User> users = userDao.selectList(wrapper);
         users.forEach(System.out::println);
+    }
+
+    @Test
+    public void lambdaQueryWrapper3() {
+        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(User::getAge, 22);
+        User one = userService.getOne(wrapper);
+        System.out.println(one);
     }
 
 }
