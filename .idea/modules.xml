@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq-study/rabbitmq-consumer/rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq-study/rabbitmq-consumer/rabbitmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq-study/rabbitmq-producer/rabbitmq-producer.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq-study/rabbitmq-producer/rabbitmq-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-EventListener-study/spring-boot-EventListener-study.iml" filepath="$PROJECT_DIR$/spring-boot-EventListener-study/spring-boot-EventListener-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator-study/spring-boot-actuator-study.iml" filepath="$PROJECT_DIR$/spring-boot-actuator-study/spring-boot-actuator-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-study/spring-boot-admin-client-study/spring-boot-admin-client-study.iml" filepath="$PROJECT_DIR$/spring-boot-admin-study/spring-boot-admin-client-study/spring-boot-admin-client-study.iml" />
@@ -14,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mongodb-study/spring-boot-mongodb-study.iml" filepath="$PROJECT_DIR$/spring-boot-mongodb-study/spring-boot-mongodb-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-study/spring-boot-mybatis-study.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-study/spring-boot-mybatis-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatisplus-study/spring-boot-mybatisplus-study.iml" filepath="$PROJECT_DIR$/spring-boot-mybatisplus-study/spring-boot-mybatisplus-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq-study/spring-boot-rabbitmq-study.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq-study/spring-boot-rabbitmq-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-study/spring-boot-redis-study.iml" filepath="$PROJECT_DIR$/spring-boot-redis-study/spring-boot-redis-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-study/spring-boot-starter-study.iml" filepath="$PROJECT_DIR$/spring-boot-starter-study/spring-boot-starter-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-validator/spring-boot-validator.iml" filepath="$PROJECT_DIR$/spring-boot-validator/spring-boot-validator.iml" />

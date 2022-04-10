@@ -27,6 +27,8 @@
         <option value="$PROJECT_DIR$/spring-boot-mongodb-study/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web-study/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-validator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rabbitmq-study/rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rabbitmq-study/rabbitmq-consumer/pom.xml" />
       </list>
     </option>
   </component>
