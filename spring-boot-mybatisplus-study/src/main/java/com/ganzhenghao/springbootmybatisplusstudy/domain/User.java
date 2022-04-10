@@ -21,7 +21,7 @@ public class User extends Model<User> {
     //主键ID
     private Long id;
     //姓名
-    @NonNull
+    @TableField(updateStrategy = FieldStrategy.IGNORED)
     private String name;
     //年龄
     @NonNull

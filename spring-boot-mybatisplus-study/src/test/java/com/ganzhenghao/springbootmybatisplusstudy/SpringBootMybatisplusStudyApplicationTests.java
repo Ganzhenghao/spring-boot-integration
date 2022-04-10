@@ -1,3 +1,4 @@
+/*
 package com.ganzhenghao.springbootmybatisplusstudy;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
@@ -107,7 +108,8 @@ class SpringBootMybatisplusStudyApplicationTests {
     public void queryWrapper2() {
 
         QueryWrapper<User> wrapper = new QueryWrapper<>();
-        /*
+        */
+/*
         1398457723804213250
         1398457728472473602
         1398457728501833729
@@ -115,7 +117,8 @@ class SpringBootMybatisplusStudyApplicationTests {
         1398457728543776769
         1398457728560553985
 
-         */
+         *//*
+
         wrapper.inSql("id", "select id from mp_user");
         List<User> users = userDao.selectList(wrapper);
         users.forEach(System.out::println);
@@ -141,3 +144,4 @@ class SpringBootMybatisplusStudyApplicationTests {
     }
 
 }
+*/

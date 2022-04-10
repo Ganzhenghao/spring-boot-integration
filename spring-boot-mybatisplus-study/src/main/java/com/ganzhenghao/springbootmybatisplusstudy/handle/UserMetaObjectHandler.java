@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -27,10 +26,10 @@ public class UserMetaObjectHandler implements MetaObjectHandler {
         this.strictInsertFill(metaObject, "version", Long.class,1L);
 
         //假设有个属性  某些表有 某些表没有 可以判断是否有该字段
-        boolean exit = metaObject.hasSetter("某个属性");
+        boolean exit = metaObject.hasSetter("deleted");
         if (exit){
             //填充字段
-            this.strictInsertFill(metaObject, "某个属性", LocalDateTime::now, LocalDateTime.class);
+            this.strictInsertFill(metaObject, "deleted", Integer.class, 1);
         }
 
         //假设有个属性 已经被赋值 不需要再次赋值 则可以判断 (基本类型可以被自动转换为Object类型)
