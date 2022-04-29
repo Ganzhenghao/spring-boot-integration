@@ -1,0 +1,16 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: spring-boot-springcache-study
+    cache:
+        type: redis
+        redis:
+            # 缓存存活时间 单位:毫秒
+            time-to-live: 3600000
+
+
+    redis:
+        database: 1
+        host: 162.14.64.15
+        password: Gzh19980424.
