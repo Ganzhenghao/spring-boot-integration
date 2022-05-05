@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="fastRequestCurrentProjectConfig">
-    <option name="domain" value="127.0.0.1:8080" />
-    <option name="enableEnv" value="8080端口" />
-    <option name="enableProject" value="Localhost" />
-  </component>
-</project>
